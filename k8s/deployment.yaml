@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: notes-service
-          image: yaswanthmitta/multiapp-notes-app:latest
+          image: yaswanthmitta/multiapp-notes-app:ec918323c4b1816ee39abe0ecf9010f0ec05801f
           ports:
             - containerPort: 5002
           env:
