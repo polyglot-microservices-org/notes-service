@@ -11,7 +11,7 @@ env:
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
   DOCKER_REPO: "yaswanthmitta"
-  IMAGE_NAME: notes-service
+  IMAGE_NAME: multiapp-notes-app
 
 jobs:
   build-and-push-docker:
